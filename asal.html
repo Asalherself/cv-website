@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asals Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .bar {
+            overflow: hidden;
+            background-color: rgb(170,0,200);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: top 0.4s;
+        }
+        .bar a, .dropdown {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.4s, color 0.4s;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .bar a:hover, .dropdown:hover {
+            background-color: white;
+            color: black;
+        }
+        .section {
+            padding: 100px 20px;
+            margin-top: 60px;
+        }
+        #section1 {
+            background: linear-gradient(120deg, rgb(181, 113, 226) 0%, rgb(234, 174, 205) 100%);
+            animation: fadeIn 1s ease-in;
+        }
+        #section2 {
+            background: linear-gradient(120deg, rgb(181, 113, 226) 0%, rgb(218, 192, 205) 100%);
+            animation: fadeIn 1.5s ease-in;
+        }
+        #section3 {
+            background: linear-gradient(120deg, rgb(181, 113, 226) 0%, rgb(225, 153, 190) 100%);
+            animation: fadeIn 2s ease-in;
+        }
+        #section5 {
+            background: linear-gradient(120deg, rgb(181, 113, 226) 0%, rgb(225, 177, 202) 100%);
+            animation: fadeIn 3s ease-in;
+        }
+        #section6 {
+            background: linear-gradient(120deg, rgb(181, 113, 226) 0%, rgb(232, 175, 204) 100%);
+            animation: fadeIn 3s ease-in;
+        }
+        #section7 {
+            background: linear-gradient(120deg, rgb(181, 113, 226) 0%, rgb(234, 174, 205) 100%);
+            animation: fadeIn 3s ease-in;
+        }
+        #section8 {
+            background: linear-gradient(120deg, rgb(181, 113, 226) 0%, rgb(234, 174, 205) 100%);
+            animation: fadeIn 3s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .button{
+            border-style: solid;
+            border-color: azure;
+            background-color: rgb(181, 113, 226);
+            height: 15px;
+        }
+        .filledbutton{
+            background-color: azure;
+            height: 15px;
+            border-style: solid;
+            border-color: azure; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="bar">
+    <div class="dropdown">
+            <a href="#section2">About me</a>
+    </div> 
+    <div class="dropdown">
+            <a href="#section3">Education</a>
+    </div>
+    <div class="dropdown">
+        <a href="#section5">Languages</a>
+    </div>
+    <div class="dropdown">
+        <a href="#section6">Skills</a>
+    </div>
+    <div class="dropdown">
+        <a href="#section7">contact</a>
+    </div>
+</div>
+        
+<div class="section" id="section1">
+    <p><img scr=""><h1>This is Asal Rezaei</h1>
+    <p>welcome to my wedsite</p></p>
+</div>
+        
+<div class="section" id="section2">
+    <h2>About me</h2>
+    <p>A motivated computer engineering student specializing in software development.</p>
+    <p>My passion for technology and software world always keeps me going.</p>
+    <p>Born and raised in Tehran. Seeking opportunities for a better future.</p>
+</div>
+        
+<div class="section" id="section3">
+    <h2>Education</h2>
+    <p>Bachelor of <strong>Computer Engineering</strong> from Azad University, North Tehran Branch</p>
+    <p>Expected Graduation: winter of 2025</p>
+    <p>Highschool Diploma of <strong>Mathematics</strong> from Imam Jafar Sadiq Trustee Board Secondary school</p>
+</div>
+
+<div class="section" id="section5">
+    <h2>Languages</h2>
+    <p>| Persian : Proficient (Native language)</p>
+    <p> </p>
+    <p>| English : Proficient (IELTS Band 7)</p>
+    <p> </p>
+    <p>| Swedish : Pre Intermediate(Studying)</p>
+    <p> </p>
+</div>
+
+<div class="section" id="section6">
+    <h2>Skills</h2>
+    <p><strong>Related to the field of study:</strong></p>
+    
+    <p>| C++ &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="button"></button> <button class="button"></button> <button class="button"></button> <button class="button"></button></p>
+    <P>| Python &nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="filledbutton"></button> <button class="filledbutton"></button> <button class="button"></button> <button class="button"></button></p>
+    <p>| Html &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="filledbutton"></button> <button class="filledbutton"></button> <button class="filledbutton"></button> <button class="button"></button></p>
+    <p>| CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="filledbutton"></button> <button class="filledbutton"></button> <button class="filledbutton"></button> <button class="button"></button></p>
+    <p>| UI/UX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="button"></button> <button class="button"></button> <button class="button"></button> <button class="button"></button></p>
+    <p><strong>Unrelated:</strong></p>
+    <p>piano &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="filledbutton"></button> <button class="filledbutton"></button> <button class="button"></button> <button class="button"></button></p>
+    <p>Music theory &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="button"></button> <button class="button"></button> <button class="button"></button> <button class="button"></button></p>
+    <p>Video editing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="filledbutton"></button> <button class="filledbutton"></button> <button class="button"></button> <button class="button"></button></p>
+    <p>Adobe Premiere Pro &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="filledbutton"></button> <button class="button"></button> <button class="button"></button> <button class="button"></button> <button class="button"></button></p>
+</div>
+
+<div class="section" id="section7">
+    <h2>Contact me</h2>
+    <p>Gmail: asalr3181@gmail.com</p>
+</div>
+        
+</body>
+</html>
